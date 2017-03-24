@@ -10,6 +10,8 @@
 
 
 /* Document
+* 用-webkit-text-size-adjust不要定义成可继承的或全局的
+* font-smoothing 显示字体为清晰还是模糊
    ========================================================================== */
 
 html {
@@ -152,6 +154,11 @@ a {
 a:active,
 a:hover {
     outline-width: 0;
+}
+
+a:focus {
+    outline: none;
+    -moz-outline: none;
 }
 
 
@@ -331,6 +338,9 @@ button,
 input {
     /* 1 */
     overflow: visible;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 
