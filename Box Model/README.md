@@ -3,4 +3,4 @@
 
 ### IE盒模型和W3C标准盒模型的区别是什么？
     1. W3C 标准盒模型：
-    > 属性width,height只包含内容content，不包含border和padding。
+        属性width,height只包含内容content，不包含border和padding。
