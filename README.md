@@ -1,6 +1,7 @@
 # GetUikit
 [官网](https://getuikit.com/)
 
+Talk is cheap, show me the code.
 
 A lightweight and modular front-end framework
 for developing fast and powerful web interfaces.
